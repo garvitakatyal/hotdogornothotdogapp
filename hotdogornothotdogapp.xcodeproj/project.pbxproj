@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C9987192755BE7900103434 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8C9987182755BE7900103434 /* Inceptionv3.mlmodel */; };
 		8CB015392755B0E6008812AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB015382755B0E6008812AA /* AppDelegate.swift */; };
 		8CB0153B2755B0E6008812AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0153A2755B0E6008812AA /* SceneDelegate.swift */; };
 		8CB0153D2755B0E6008812AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0153C2755B0E6008812AA /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C9987182755BE7900103434 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../../../../../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		8CB015352755B0E6008812AA /* hotdogornothotdogapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotdogornothotdogapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB015382755B0E6008812AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB0153A2755B0E6008812AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				8CB015412755B0EC008812AA /* Assets.xcassets */,
 				8CB015432755B0EC008812AA /* LaunchScreen.storyboard */,
 				8CB015462755B0EC008812AA /* Info.plist */,
+				8C9987182755BE7900103434 /* Inceptionv3.mlmodel */,
 			);
 			path = hotdogornothotdogapp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				8CB0153D2755B0E6008812AA /* ViewController.swift in Sources */,
 				8CB015392755B0E6008812AA /* AppDelegate.swift in Sources */,
 				8CB0153B2755B0E6008812AA /* SceneDelegate.swift in Sources */,
+				8C9987192755BE7900103434 /* Inceptionv3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
